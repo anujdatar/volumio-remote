@@ -1,1 +1,1 @@
-volumio-remote-desktop
+volumio-remote

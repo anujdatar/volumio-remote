@@ -1,14 +1,14 @@
 {
-  "name": "volumio-remote-desktop",
+  "name": "volumio-remote",
   "version": "1.0.0",
-  "description": "Volumio desktop remote app",
+  "description": "Volumio remote control app",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anujdatar/volumio-remote-desktop.git"
+    "url": "git+https://github.com/anujdatar/volumio-remote.git"
   },
   "keywords": [
     "Volumio",
@@ -18,9 +18,9 @@
   "author": "Anuj Datar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anujdatar/volumio-remote-desktop/issues"
+    "url": "https://github.com/anujdatar/volumio-remote/issues"
   },
-  "homepage": "https://github.com/anujdatar/volumio-remote-desktop#readme",
+  "homepage": "https://github.com/anujdatar/volumio-remote#readme",
   "devDependencies": {
     "electron": "^4.0.1",
     "electron-packager": "^13.0.1"
