@@ -16,7 +16,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-//   mainWindow.loadURL('http://volumio.local/playback')
+//   mainWindow.loadURL('http://volumio.local/')
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
