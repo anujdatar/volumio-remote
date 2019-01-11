@@ -2,8 +2,7 @@
 
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import QUrl
-from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEnginePage, QWebEngineProfile
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 
 
 class MainWindow(QMainWindow):
@@ -33,10 +32,3 @@ class MainWindow(QMainWindow):
 class BrowserWindow(QWebEngineView):
     def __init__(self):
         super().__init__()
-
-
-class BrowserPage(QWebEnginePage):
-    def __init__(self):
-        super().__init__()
-
-
